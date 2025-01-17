@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007BFF; /* Header background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #f0f0f0; /* Light grey background for the navigation */
+    padding: 10px 0; /* Padding for the navigation */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline for horizontal layout */
+    margin: 0 15px; /* Space between the items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark grey color for the links */
+    font-weight: bold; /* Make the text bold */
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+main {
+    padding: 20px; /* Padding for the main content */
+}
+
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 10px 0; /* Padding for the footer */
+    background: #f0f0f0; /* Light grey background for the footer */
+}
